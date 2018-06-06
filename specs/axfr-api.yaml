@@ -1,60 +1,59 @@
----
-swagger: '2.0'
+swagger: 2.0
 info:
   description: |
     API Proxy to the AXFR Check public API
     [http://api.axfck.com/](http://api.axfrcheck.com/)
-  version: '1.0'
-  title: 'AXFR API'
+  version: 1.0
+  title: AXFR API
   contact:
-    email: 'https://github.com/george-haddad'
+    email: https://github.com/george-haddad
   license:
     name: BSD 3-Clause License
     url: https://tldrlegal.com/license/bsd-3-clause-license-(revised)
 
-host: 'thawing-meadow-89074.herokuapp.com'
-basePath: '/axfr'
+host: thawing-meadow-89074.herokuapp.com
+basePath: /axfr
 schemes:
-- 'http'
-- 'https'
+- http
+- https
 paths:
   /check/{domain}:
     get:
-      summary: 'Performs an online AXFR check on the specified domain'
-      description: 'Performs an online AXFR check on the specified domain'
+      summary: Performs an online AXFR check on the specified domain
+      description: Performs an online AXFR check on the specified domain
       consumes:
         - application/json
       produces:
         - application/json
       parameters:
-        - in: 'path'
-          name: 'domain'
-          description: 'the domain to check'
+        - in: path
+          name: domain
+          description: the domain to check
           required: true
-          type: 'string'
-        - in: 'header'
-          name: 'Accept'
-          descrption: 'application/vnd.tool-belt.axfr+json; version=1'
+          type: string
+        - in: header
+          name: Accept
+          descrption: application/vnd.tool-belt.axfr+json; version=1
           required: true
-          type: 'string'
+          type: string
       responses:
         200:
-          description: '...'
+          description: ...
           headers:
             content-type:
-              description: 'application/json; charset=utf-8 '
-              type: 'string'
+              description: application/json; charset=utf-8 
+              type: string
           schema:
-            $ref: '#/definitions/AxfrCheck'
+            $ref: #/definitions/AxfrCheck
         400:
-          description: 'Error in the request URL or header'
+          description: Error in the request URL or header
         500:
-          description: 'Internal error in the proxy or backend API'
+          description: Internal error in the proxy or backend API
 definitions:
   AxfrCheck:
-    type: 'object'
+    type: object
     properties:
       affected_dns:
-        type: 'array'
+        type: array
         items:
-          type: 'string'
+          type: string
