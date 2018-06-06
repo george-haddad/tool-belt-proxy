@@ -592,9 +592,9 @@ dot-prop@^4.1.0:
   dependencies:
     is-obj "^1.0.0"
 
-dotenv@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-5.0.1.tgz#a5317459bd3d79ab88cff6e44057a6a3fbb1fcef"
+dotenv@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.0.0.tgz#24e37c041741c5f4b25324958ebbc34bca965935"
 
 duplexer3@^0.1.4:
   version "0.1.4"
@@ -1439,9 +1439,9 @@ isstream@0.1.x:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
-joi@^13.3.0:
-  version "13.3.0"
-  resolved "https://registry.yarnpkg.com/joi/-/joi-13.3.0.tgz#4defd4333b539c5d10e444ab44f5a5583480f17c"
+joi@^13.4.0:
+  version "13.4.0"
+  resolved "https://registry.yarnpkg.com/joi/-/joi-13.4.0.tgz#afc359ee3d8bc5f9b9ba6cdc31b46d44af14cecc"
   dependencies:
     hoek "5.x.x"
     isemail "3.x.x"
@@ -1712,9 +1712,9 @@ node-pre-gyp@^0.10.0:
     semver "^5.3.0"
     tar "^4"
 
-nodemon@^1.17.4:
-  version "1.17.4"
-  resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-1.17.4.tgz#243ff9c69ffbf1175f2460f9b023f35a072c15e9"
+nodemon@^1.17.5:
+  version "1.17.5"
+  resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-1.17.5.tgz#e6a665c872fdf09d48bf2a81f3e85f8cfb39322a"
   dependencies:
     chokidar "^2.0.2"
     debug "^3.1.0"
@@ -1982,9 +1982,9 @@ prepend-http@^1.0.1:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
 
-prettier@^1.12.1:
-  version "1.12.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.12.1.tgz#c1ad20e803e7749faf905a409d2367e06bbe7325"
+prettier@^1.13.4:
+  version "1.13.4"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.13.4.tgz#31bbae6990f13b1093187c731766a14036fa72e6"
 
 process-nextick-args@~2.0.0:
   version "2.0.0"
