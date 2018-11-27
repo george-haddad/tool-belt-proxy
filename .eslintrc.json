@@ -4,6 +4,7 @@
     "node": true
   },
   "rules": {
-    "func-names": ["error", "as-needed"]
+    "func-names": ["error", "as-needed"],
+    "inebreak-style": ["error", "windows"]
   }
 }
