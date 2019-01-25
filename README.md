@@ -1,5 +1,7 @@
 # tool-belt-proxy
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/george-haddad/tool-belt-proxy.svg)](https://greenkeeper.io/)
+
 ## Install
 
 ```bash
