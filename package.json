@@ -5,7 +5,9 @@
   "scripts": {
     "test": "echo \"Error: no tests specified\" && exit 1",
     "start": "node app.js",
-    "start:dev": "nodemon app.js"
+    "start:dev": "nodemon app.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": "https://github.com/george-haddad/tool-belt-proxy.git",
   "author": "George Haddad <george.dma@gmail.com>",
@@ -31,6 +33,8 @@
     "joi": "^14.3.1",
     "lodash": "^4.17.11",
     "superagent": "^5.1.0",
-    "winston": "^3.2.1"
-  }
+    "winston": "^3.2.1",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
