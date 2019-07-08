@@ -5,4 +5,4 @@ ignore: {}
 patch:
   SNYK-JS-LODASH-450202:
     - lodash:
-        patched: '2019-07-04T02:34:07.379Z'
+        patched: '2019-07-05T21:31:48.340Z'
