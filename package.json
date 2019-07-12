@@ -34,7 +34,7 @@
     "lodash": "^4.17.13",
     "superagent": "^5.1.0",
     "winston": "^3.2.1",
-    "snyk": "^1.193.0"
+    "snyk": "^1.193.1"
   },
   "snyk": true
 }
