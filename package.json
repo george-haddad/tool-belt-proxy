@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/george-haddad/tool-belt#readme",
   "devDependencies": {
-    "eslint": "6.5.1",
+    "eslint": "6.6.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.3.0",
     "nodemon": "^2.0.0",
