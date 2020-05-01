@@ -7,7 +7,7 @@
     "start": "node app.js",
     "start:dev": "nodemon app.js",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "yarn run snyk-protect"
   },
   "repository": "https://github.com/george-haddad/tool-belt-proxy.git",
   "author": "George Haddad <george.dma@gmail.com>",
@@ -34,7 +34,7 @@
     "lodash": "^4.17.13",
     "superagent": "^5.2.2",
     "winston": "^3.2.1",
-    "snyk": "^2.0.0"
+    "snyk": "^1.316.2"
   },
   "snyk": true
 }
