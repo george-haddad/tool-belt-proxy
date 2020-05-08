@@ -11,3 +11,5 @@ patch:
         patched: '2020-05-01T21:31:57.067Z'
     - winston > async > lodash:
         patched: '2020-05-01T21:31:57.067Z'
+    - express-validation > lodash:
+        patched: '2020-05-08T21:32:40.255Z'
