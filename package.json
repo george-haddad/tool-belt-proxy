@@ -25,14 +25,14 @@
     "prettier": "^2.0.0"
   },
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.4",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
-    "express": "^4.16.4",
+    "express": "^4.22.0",
     "express-validation": "^2.0.0",
     "joi": "^14.3.1",
     "lodash": "^4.17.21",
-    "superagent": "^5.2.2",
+    "superagent": "^10.2.2",
     "winston": "^3.3.0",
     "snyk": "^1.685.0"
   },
